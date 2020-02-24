@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-def xml(tagname, text=''):
+def xml(tagname, text='', **kwargs):
     return f'<{tagname}>{text}</{tagname}>'
 
 
