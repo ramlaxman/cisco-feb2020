@@ -4,7 +4,7 @@
 
 movies = [{'name': 'Spotlight', 'length': 129, 'director': 'Tom McCarthy'},
           {'name': 'The Big Short', 'length': 130, 'director': 'Adam McKay'},
-          ('The Martian', 141, 'Ridley Scott')]
+          {'name': 'The Martian', 'length': 141, 'director': 'Ridley Scott'}]
 
 look_for = input("Enter movie title: ")
 
