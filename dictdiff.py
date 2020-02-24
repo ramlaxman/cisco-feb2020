@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # dictdiff takes two dicts as arguments
 # it returns a dict representing the difference between them
 # if a key-value pair exists (identical) in both, ignore it in the output
