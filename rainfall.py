@@ -11,6 +11,9 @@ while True:
     if mm_rain.isdigit():
         mm_rain = int(mm_rain)
         rainfall[city_name] = rainfall.get(city_name, 0) + mm_rain
+    else:
+        print(f'Bad rainfall value {mm_rain}')
+
 
 for key, value in rainfall.items():
     print(f'{key}: {value}')
