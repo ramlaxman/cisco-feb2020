@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-# list of dicts
+# dict of dicts
 
-movies = [{'name': 'Spotlight', 'length': 129, 'director': 'Tom McCarthy'},
-          {'name': 'The Big Short', 'length': 130, 'director': 'Adam McKay'},
-          {'name': 'The Martian', 'length': 141, 'director': 'Ridley Scott'}]
+movies = {'Spotlight': {'length': 129, 'director': 'Tom McCarthy'},
+          'The Big Short': {'length': 130, 'director': 'Adam McKay'},
+          'The Martian': {'length': 141, 'director': 'Ridley Scott'}
+          }
 
 look_for = input("Enter movie title: ")
 
