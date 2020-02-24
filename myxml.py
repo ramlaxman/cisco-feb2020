@@ -2,7 +2,8 @@
 
 
 def xml(tagname, text='', **kwargs):
-    return f'<{tagname}>{text}</{tagname}>'
+    attributes = ''
+    return f'<{tagname}{attributes}>{text}</{tagname}>'
 
 
 print(xml('foo'))               # first argument = tagname
