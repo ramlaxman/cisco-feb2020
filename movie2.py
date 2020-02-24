@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# list of lists
+# list of tuples
 
 movies = [['Spotlight', 129, 'Tom McCarthy'],
           ['The Big Short', 130, 'Adam McKay'],
