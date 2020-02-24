@@ -2,9 +2,9 @@
 
 # list of tuples
 
-movies = [['Spotlight', 129, 'Tom McCarthy'],
-          ['The Big Short', 130, 'Adam McKay'],
-          ['The Martian', 141, 'Ridley Scott']]
+movies = [('Spotlight', 129, 'Tom McCarthy'),
+          ('The Big Short', 130, 'Adam McKay'),
+          ('The Martian', 141, 'Ridley Scott')]
 
 look_for = input("Enter movie title: ")
 
