@@ -4,10 +4,11 @@
 # myxml('name', 'Reuven Lerner')
 <name>Reuven Lerner</name>
 
+# myxml('name', myxml('first', 'Reuven'))
 <name>
   <first>Reuven</first>
-  <last>Lerner</last>
 </name>
 
 
+# myxml('name', 'Reuven Lerner', country='Israel', language='Python')
 <name country="Israel" language="Python">Reuven Lerner</name>
