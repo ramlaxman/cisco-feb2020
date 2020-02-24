@@ -8,7 +8,7 @@ def xml(tagname):
 print(xml('foo'))               # first argument = tagname
 # <foo></foo>
 
-# print(xml('foo', 'bar'))        # second (optional) argument = content
+print(xml('foo', 'bar'))        # second (optional) argument = content
 # # # # # <foo>bar</foo>
 
 # print(xml('a',
