@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 
 
+def xml(tagname):
+    return f'<{tagname}></{tagname}>'
+
+
 print(xml('foo'))               # first argument = tagname
 # <foo></foo>
 
