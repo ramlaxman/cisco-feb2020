@@ -11,9 +11,9 @@ print(xml('foo'))               # first argument = tagname
 print(xml('foo', 'bar'))        # second (optional) argument = content
 # # # # # <foo>bar</foo>
 
-# print(xml('a',
-#           xml('b',
-#               xml('c', 'hello'))))
+print(xml('a',
+          xml('b',
+              xml('c', 'hello'))))
 # # # # # # # <a><b><c>hello</c></b></a>
 
 # # # # kwargs become attributes in opening tag
