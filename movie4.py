@@ -15,3 +15,8 @@ if look_for in movies:
         f"Found {look_for}, {one_movie['length']} min, dir {one_movie['director']}")
 else:
     print(f"Sorry, didn't find {look_for}")
+
+
+def add_one(y=[]):
+    y.append(1)
+    return y
