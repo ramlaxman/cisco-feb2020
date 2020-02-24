@@ -7,6 +7,18 @@
 # if a key exists in just one, return None as the value
 
 
+def dictdiff(first, second):
+    output = {}
+    for one_key in first.keys() | second.keys():
+        v1 = first.get(one_key)
+        v2 = second.get(one_key)
+
+        if v1 != v2:
+            output[one_key] = [v1, v2]
+
+    return output
+
+
 d1 = {'a': 1, 'b': 2, 'c': 3}
 d2 = {'a': 1, 'b': 2, 'c': 4}
 
