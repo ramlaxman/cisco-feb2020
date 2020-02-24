@@ -1,736 +1,736 @@
-##
-# User Database
-# 
-# Note that this file is consulted directly only when the system is running
-# in single-user mode.  At other times this information is provided by
-# Open Directory.
-#
-# See the opendirectoryd(8) man page for additional information about
-# Open Directory.
-##
-nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
-root:*:0:0:System Administrator:/var/root:/bin/sh
-daemon:*:1:1:System Services:/var/root:/usr/bin/false
-_uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
-_taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false
-_networkd:*:24:24:Network Services:/var/networkd:/usr/bin/false
-_installassistant:*:25:25:Install Assistant:/var/empty:/usr/bin/false
-_lp:*:26:26:Printing Services:/var/spool/cups:/usr/bin/false
-_postfix:*:27:27:Postfix Mail Server:/var/spool/postfix:/usr/bin/false
-_scsd:*:31:31:Service Configuration Service:/var/empty:/usr/bin/false
-_ces:*:32:32:Certificate Enrollment Service:/var/empty:/usr/bin/false
-_appstore:*:33:33:Mac App Store Service:/var/db/appstore:/usr/bin/false
-_mcxalr:*:54:54:MCX AppLaunch:/var/empty:/usr/bin/false
-_appleevents:*:55:55:AppleEvents Daemon:/var/empty:/usr/bin/false
-_geod:*:56:56:Geo Services Daemon:/var/db/geod:/usr/bin/false
-_devdocs:*:59:59:Developer Documentation:/var/empty:/usr/bin/false
-_sandbox:*:60:60:Seatbelt:/var/empty:/usr/bin/false
-_mdnsresponder:*:65:65:mDNSResponder:/var/empty:/usr/bin/false
-_ard:*:67:67:Apple Remote Desktop:/var/empty:/usr/bin/false
-_www:*:70:70:World Wide Web Server:/Library/WebServer:/usr/bin/false
-_eppc:*:71:71:Apple Events User:/var/empty:/usr/bin/false
-_cvs:*:72:72:CVS Server:/var/empty:/usr/bin/false
-_svn:*:73:73:SVN Server:/var/empty:/usr/bin/false
-_mysql:*:74:74:MySQL Server:/var/empty:/usr/bin/false
-_sshd:*:75:75:sshd Privilege separation:/var/empty:/usr/bin/false
-_qtss:*:76:76:QuickTime Streaming Server:/var/empty:/usr/bin/false
-_cyrus:*:77:6:Cyrus Administrator:/var/imap:/usr/bin/false
-_mailman:*:78:78:Mailman List Server:/var/empty:/usr/bin/false
-_appserver:*:79:79:Application Server:/var/empty:/usr/bin/false
-_clamav:*:82:82:ClamAV Daemon:/var/virusmails:/usr/bin/false
-_amavisd:*:83:83:AMaViS Daemon:/var/virusmails:/usr/bin/false
-_jabber:*:84:84:Jabber XMPP Server:/var/empty:/usr/bin/false
-_appowner:*:87:87:Application Owner:/var/empty:/usr/bin/false
-_windowserver:*:88:88:WindowServer:/var/empty:/usr/bin/false
-_spotlight:*:89:89:Spotlight:/var/empty:/usr/bin/false
-_tokend:*:91:91:Token Daemon:/var/empty:/usr/bin/false
-_securityagent:*:92:92:SecurityAgent:/var/db/securityagent:/usr/bin/false
-_calendar:*:93:93:Calendar:/var/empty:/usr/bin/false
-_teamsserver:*:94:94:TeamsServer:/var/teamsserver:/usr/bin/false
-_update_sharing:*:95:-2:Update Sharing:/var/empty:/usr/bin/false
-_installer:*:96:-2:Installer:/var/empty:/usr/bin/false
-_atsserver:*:97:97:ATS Server:/var/empty:/usr/bin/false
-_ftp:*:98:-2:FTP Daemon:/var/empty:/usr/bin/false
-_unknown:*:99:99:Unknown User:/var/empty:/usr/bin/false
-_softwareupdate:*:200:200:Software Update Service:/var/db/softwareupdate:/usr/bin/false
-_coreaudiod:*:202:202:Core Audio Daemon:/var/empty:/usr/bin/false
-_screensaver:*:203:203:Screensaver:/var/empty:/usr/bin/false
-_locationd:*:205:205:Location Daemon:/var/db/locationd:/usr/bin/false
-_trustevaluationagent:*:208:208:Trust Evaluation Agent:/var/empty:/usr/bin/false
-_timezone:*:210:210:AutoTimeZoneDaemon:/var/empty:/usr/bin/false
-_lda:*:211:211:Local Delivery Agent:/var/empty:/usr/bin/false
-_cvmsroot:*:212:212:CVMS Root:/var/empty:/usr/bin/false
-_usbmuxd:*:213:213:iPhone OS Device Helper:/var/db/lockdown:/usr/bin/false
-_dovecot:*:214:6:Dovecot Administrator:/var/empty:/usr/bin/false
-_dpaudio:*:215:215:DP Audio:/var/empty:/usr/bin/false
-_postgres:*:216:216:PostgreSQL Server:/var/empty:/usr/bin/false
-_krbtgt:*:217:-2:Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
-_kadmin_admin:*:218:-2:Kerberos Admin Service:/var/empty:/usr/bin/false
-_kadmin_changepw:*:219:-2:Kerberos Change Password Service:/var/empty:/usr/bin/false
-_devicemgr:*:220:220:Device Management Server:/var/empty:/usr/bin/false
-_webauthserver:*:221:221:Web Auth Server:/var/empty:/usr/bin/false
-_netbios:*:222:222:NetBIOS:/var/empty:/usr/bin/false
-_warmd:*:224:224:Warm Daemon:/var/empty:/usr/bin/false
-_dovenull:*:227:227:Dovecot Authentication:/var/empty:/usr/bin/false
-_netstatistics:*:228:228:Network Statistics Daemon:/var/empty:/usr/bin/false
-_avbdeviced:*:229:-2:Ethernet AVB Device Daemon:/var/empty:/usr/bin/false
-_krb_krbtgt:*:230:-2:Open Directory Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
-_krb_kadmin:*:231:-2:Open Directory Kerberos Admin Service:/var/empty:/usr/bin/false
-_krb_changepw:*:232:-2:Open Directory Kerberos Change Password Service:/var/empty:/usr/bin/false
-_krb_kerberos:*:233:-2:Open Directory Kerberos:/var/empty:/usr/bin/false
-_krb_anonymous:*:234:-2:Open Directory Kerberos Anonymous:/var/empty:/usr/bin/false
-_assetcache:*:235:235:Asset Cache Service:/var/empty:/usr/bin/false
-_coremediaiod:*:236:236:Core Media IO Daemon:/var/empty:/usr/bin/false
-_launchservicesd:*:239:239:_launchservicesd:/var/empty:/usr/bin/false
-_iconservices:*:240:240:IconServices:/var/empty:/usr/bin/false
-_distnote:*:241:241:DistNote:/var/empty:/usr/bin/false
-_nsurlsessiond:*:242:242:NSURLSession Daemon:/var/db/nsurlsessiond:/usr/bin/false
-_nsurlstoraged:*:243:243:NSURLStorage Daemon:/var/db/nsurlstoraged:/usr/bin/false
-_displaypolicyd:*:244:244:Display Policy Daemon:/var/empty:/usr/bin/false
-_astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
-_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
-_gamecontrollerd:*:247:247:Game Controller Daemon:/var/empty:/usr/bin/false
-_mbsetupuser:*:248:248:Setup User:/var/setup:/bin/bash
-_ondemand:*:249:249:On Demand Resource Daemon:/var/db/ondemand:/usr/bin/false
-_xserverdocs:*:251:251:macOS Server Documents Service:/var/empty:/usr/bin/false
-_wwwproxy:*:252:252:WWW Proxy:/var/empty:/usr/bin/false
-_mobileasset:*:253:253:MobileAsset User:/var/ma:/usr/bin/false
-_findmydevice:*:254:254:Find My Device Daemon:/var/db/findmydevice:/usr/bin/false
-_datadetectors:*:257:257:DataDetectors:/var/db/datadetectors:/usr/bin/false
-_captiveagent:*:258:258:captiveagent:/var/empty:/usr/bin/false
-_ctkd:*:259:259:ctkd Account:/var/empty:/usr/bin/false
-_applepay:*:260:260:applepay Account:/var/db/applepay:/usr/bin/false
-_hidd:*:261:261:HID Service User:/var/db/hidd:/usr/bin/false
-_cmiodalassistants:*:262:262:CoreMedia IO Assistants User:/var/db/cmiodalassistants:/usr/bin/false
-_analyticsd:*:263:263:Analytics Daemon:/var/db/analyticsd:/usr/bin/false
-_fpsd:*:265:265:FPS Daemon:/var/db/fpsd:/usr/bin/false
-_timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
-_nearbyd:*:268:268:Proximity and Ranging Daemon:/var/db/nearbyd:/usr/bin/false
-_reportmemoryexception:*:269:269:ReportMemoryException:/var/db/reportmemoryexception:/usr/bin/false
-_driverkit:*:270:270:DriverKit:/var/empty:/usr/bin/false
-At the Forge: Easier Python paths with "pathlib"
-by Reuven M. Lerner
-
-Working with files is one of the most common things that developers
-do. After all, we often want to read from files (to read information
-saved by other users, sessions, or programs) or write to files (to
-record data for other users, sessions, or programs).
-
-Of course, files are located inside of directories. Navigating through
-directories, finding files in those directories, and even extracting
-information about directories (and the files within them) might be
-common, but they're often frustrating to deal with. In Python, a
-number of different modules and objects provide us with such
-functionality, including os.path, os.stat, and glob.
-
-This isn't necessarily bad; the fact is that Python developers have
-used this combination of modules, methods, and files for quite some
-time. But if you ever felt like it was a bit clunky or old-fashioned,
-then you're not alone.
-
-Indeed, it turns out that for several years already, Python's standard
-library has come with the "pathlib" module, which makes it easier to
-work with directories and files. I say "it turns out" because while I
-might be a long-time developer and instructor, I only discovered
-"pathlib" in the last few months -- and I must admit that I'm
-completely smitten.
-
-"pathlib" has been described as an object-oriented way of dealing with
-paths, and this description seems quite apt to me. Rather than working
-with strings, we instead work with "Path" objects, which not only
-allow us to use all of our favorite path- and file-related
-functionality as methods, but also allow us to paper over the
-differences between operating systems.
-
-This month, we'll take a look at "pathlib", comparing the ways in
-which we might have done things before to how "pathlib" allows us to
-do them now.
-
-pathlib basics
---------------
-
-If you want to work with "pathlib", then you'll need to load it into
-your Python session.  You should start with:
-
-    import pathlib
-
-Note that if you plan to use certain names from within "pathlib" on a
-regular basis, you'll probably want to use "from-import".  However, I
-strongly recommend against saying "from pathlib import *" -- which
-will indeed have the benefit of importing all of the module's names
-into the current namespace... but it'll also have the negative effect
-of importing all of the module's names into the current namespace.  In
-short, import only what you need.
-
-Now that we've done that, we can create a new Path object.  This
-allows us to represent a file or directory.  We can create it with a
-string, just as we might do a path (or filename) in more traditional
-Python code:
-
-    p2 = pathlib.Path('.')
-
-But wait a second: Do we use "pathlib.Path" to represent files, or
-directories?  The answer is "yes" -- we can actually use it for both.
-If you're not sure what kind of object you have, you can always ask
-it, with the "is_dir" and "is_file" methods:
-
-    >>> p1 = pathlib.Path('hello.py')
-    >>> p2 = pathlib.Path('.')
-
-    >>> p1.is_file()
-    True
-
-    >>> p2.is_file()
-    False
-
-    >>> p1.is_dir()
-    False
-
-    >>> p2.is_dir()
-    True
-
-Notice that just because we create a Path object doesn't mean that the
-file or directory actually exists.  We can check that with the
-"exists" method:
-
-    >>> p1 = pathlib.Path('hello.py')
-    >>> p1.exists()
-    True
-
-    >>> p2 = pathlib.Path('asdfafafsafaa')
-    >>> p2.exists()
-    False
-
-Manipulating paths
-------------------
-
-Let's say that you want to work with a file 'abc.txt' in the directory
-'/foo/bar'.  In a typical Python program, you would then say:
-
-    open('/foo/bar' + 'abc.txt')
-
-We aren't doing anything particularly exciting here; we're just
-joining two strings together, the first of which represents a
-directory and the second of which represents a file.  But as you can
-see, we've already got a problem there, in that we don't have a '/'
-separating the directory from the filename.
-
-We can avoid such problems by using "os.path.join".
-
-    >>> import os.path
-    >>> dirname = '/foo/bar'
-    >>> filename = 'abc.txt'
-
-    >>> os.path.join(dirname, filename)
-    '/foo/bar/abc.txt'
-
-Using "os.path.join" not only ensures that there are slashes where we
-need them, but it also works cross-platform, using '\' if our program
-is running on a Windows system.
-
-That's nice, but "pathlib" offers us another option: We can use the
-"/" operator, normally used for division, to join paths together.  For
-example:
-
-    >>> dirname = pathlib.Path('/foo/bar')
-
-    >>> dirname / filename
-    PosixPath('/foo/bar/abc.txt')
-
-It takes a bit of time to get used to seeing '/' between what we might
-think of as strings. But remember that "dirname" isn't a string;
-rather, it's a Path object. And '/' is a Python operator, which means
-that it can be overloaded and redefined for different types.
-
-If you forget, and try to treat your Path object as a string, Python
-will remind you:
-
-    >>> dirname + filename
-    TypeError: unsupported operand type(s) for +: 'PosixPath' and 'str'
-
-Working with directories
-------------------------
-
-If your Path object contains a directory, then there are a bunch of
-directory-related methods that you can run on it. Actually, you can
-run these methods on non-directory Path objects as well, but it won't
-end very usefully or well.
-
-For example, let's say that I want to find all of the files in the
-current directory.  I can say:
-
-    >>> p = pathlib.Path('.')
-    >>>
-    >>> p.iterdir()
-    <generator object Path.iterdir at 0x111e4b1b0>
-
-Notice that the result from calling "p.iterdir()" is a generator
-object. We can put such an object in a "for" loop or other context
-that expects/requires iteration.  The generator will return one value
-for each filename in our directory.
-
-But what if I'm not interested in getting all of the filenames?  What
-if I only want to get those files ending with ".py"?  If I were
-working in the Unix shell, then I'd say something like "ls *.py".
-Such a pattern isn't a regular expression, despite what many people
-believe.  Rather, such a pattern is known as "globbing." The "glob"
-module in Python handles that for us, letting us say something like:
-
-    import glob
-    glob.glob('*.py')
-
-The result of invoking "glob.glob" is a list of strings, with each
-string containing a filename that matches the pattern.
-
-Path objects have similar functionality, thanks to the "glob"
-method. Like "iterdir", the "glob" method returns a generator, meaning
-that we can use it in a "for" loop.  For example:
-
-    >>> p.glob('*.py')
-    <generator object Path.glob at 0x111b38480>
-
-    >>> for one_item in p.glob('*.py'):
-        print(f"{one_item}: {type(one_item)}")
-
-    hello.py: <class 'pathlib.PosixPath'>
-    reverse_lines.py: <class 'pathlib.PosixPath'>
-    old_test_hello.py: <class 'pathlib.PosixPath'>
-
-The good news is that we get back the filenames in the directory. And
-the filenames have already been filtered by "glob", so we're only
-getting matches.  The even better news is that we get back Path
-objects (in this case, "PosixPath" objects, since I'm on a Unix
-system), which means that we can use all of the tricks we've enjoyed
-so far.
-
-Working with files
-------------------
-
-Once we have a file, what can we do with it?  Well, one obvious
-candidate is to open it and read its contents.  We can do that with
-the "read_bytes" and "read_text" methods, which return "bytes" and
-string objects, respectively.
-
-Note that unlike the "read" method that you can typically run on a
-"file" object in Python, both "read_text" and "read_bytes" open the
-file, retrieve its contents, and close it again. You thus don't have
-to worry about where the internal file pointer is located, or whether
-you'll be reading from the start of the file or elsewhere.
-
-However, these methods can cause problems if you read from a
-particularly large file.  Python will happily read as much as it can
-into a huge string, potentially using all (or most) of the memory on
-your computer.
-
-A better strategy, and a traditional one in Python, is to read through
-the file's contents one line at a time.  This is accomplished by
-putting an open "file" object into a "for" loop; file objects are
-iterable, and return one line (i.e., up to and including the following
-newline) in each iteration.
-
-Note that while we can certainly use the builtin "open" function, we
-can also take advantage of the "open" method for Path objects:
-
-    >>> p = pathlib.Path('hello.py')
-
-    >>> for one_line in p.open():
-    >>>     print(one_line)
-    
-This will print all of the lines in the file; notice that "open" knows
-how to work with a Path object just as easily as a string. However,
-you'll also notice that when you print the file, the lines are
-double-spaced. That's because each iteration includes the newline
-character, and "print" also inserts a newline character after each
-line it prints.  We can adjust this by passing an empty string to the
-"end" parameter in the "print" function:
-
-    >>> for one_line in p.open():
-    >>>     print(one_line, end='')
-
-Aside from opening files, we can also invoke a number of other methods
-on a Path object.  For example, I mentioned before that we might not
-want to read the entirety of a large file into memory.  We can check
-the file's size, as well as many other attributes, using the "stat"
-method. This method, like the traditional "os.stat" Python function,
-returns a file's size in bytes:
-
-    >>> p.stat().st_size
-    123
-
-You can similarly retrieve other items that "stat" reports, including
-the file's most recent modification timestamp, and IDs of the user and
-group that own the file.
-
-If you want to manipulate the filename, you can do so with such
-methods as "suffix":
-
-    >>> p.suffix()
-    '.py'
-
-Conclusion
-----------
-
-If you work with files on a regular basis from within Python programs,
-then I suggest you look at "pathlib".  It's not revolutionary, but it
-does help to bring a lot of file-manipulating code under one
-roof. Moreover, the '/' syntax, while odd looking at the start,
-emphasizes the fact that we're dealing with "Path" objects, rather
-than strings. And besides, it's just convenient to have access to so
-much functionality without having to remember where it's
-located.
-
-Resources
----------
-
-Pathlib was first proposed (and accepted) in PEP 428, which is worth
-reading at: https://www.python.org/dev/peps/pep-0428/.  It has been
-around since Python 3.4.  If you're still using Python 2.7, a package
-is available on PyPI with a backport, known as "pathlib2".
-
-
-At the Forge: MyPy
-by Reuven M. Lerner
-
-Tighten up your code, and identify errors before they occur, with "mypy"
-
-I've been using dynamic languages -- Perl, Ruby, and Python -- for
-many years. I love the flexibility and expressiveness that such
-languages provide.  For example, I can define a function that sums
-numbers:
-
-    def mysum(numbers):
-        total = 0
-	for one_number in numbers:
-	    total += one_number
-	return total
-
-The above function will work on any iterable that returns numbers. So
-I can run the above on a list, tuple, or set of numbers. I can even
-run it on a dictionary whose keys are all numbers.  Pretty great,
-right?
-
-Yes, but for my students who are used to static, compiled languages,
-this is a very hard thing to get used to. After all, how can we make
-sure that no one passes us a string, or a number of strings?  What if
-we get a list in which some, but not all, of the elements are numeric?
-
-For a number of years, I used to dismiss such worries. After all,
-dynamic languages have been around for years, and have done a good
-job. And really, if people are having these sorts of type mismatch
-errors, then maybe they should be paying closer attention.  And if you
-have enough testing, then you'll probably be fine.
-
-But as Python (and other dynamic languages) have been making inroads
-into large companies, I've become increasingly convinced that there's
-something to be said for type checking. In particular, the fact that a
-many newcomers to Python are working on large projects, in which many
-parts need to interoperate, have made it clear to me that some sort of
-type checking can be useful.
-
-How can we balance these needs?  That is, how can we enjoy Python as a
-dynamically typed language, while simultaneously getting some added
-sense of static-typing stability?
-
-One of the most popular answers is a system known as "mypy", which
-takes advantage of Python 3's type annotations for its own purposes.
-Using "mypy" means that we can write and run Python in the normal way,
-gradually adding static type checking over time and checking it
-outside of our program's execution.
-
-This month, we'll start to look at "mypy" and how we can use it to
-check for problems in our programs.  I've been impressed by "mypy",
-and believe that we're likely to see it deployed in a growing number
-of places, in no small part because it's optional, and thus allows
-developers to use it to whatever degree they deem necessary,
-tightening things up over time, as well.
-
-Dynamic + strong typing
------------------------
-
-In Python, we enjoy not only dynamic typing, but also strong typing.
-"Dynamic" means that variables don't have types, but that values do.
-So we can say:
-
-    >>> x = 100
-    >>> print(type(x))
-    int
-
-    >>> x = 'abcd'
-    >>> print(type(x))
-    str
-    
-    >>> x = [10, 20, 30]
-    >>> print(type(x))
-    list
-
-As you can see, I can run the above code, and it'll work just fine.
-It's not particularly useful, per se, but it would never pass even a
-first-pass compilation in a statically compiled language.  That's
-because in such languages, variables have types -- meaning that if you
-try to assign an integer to a string variable, you'll get an error.
-
-In a dynamic language, by contrast, variables don't have types at
-all.  Running the "type" function, as I did above, doesn't actually
-return the variable's type, but rather then type of data to which the
-variable currently points.
-
-Just because a language is dynamically typed doesn't mean that it's
-totally loosey-goosey, letting me do whatever I want. (And yes, that
-is the technical term.)  For example, I can try this:
-
-    >>> x = 1
-    >>> y = '1'
-    >>> print(x+y)
-
-The above code will result in an error, because Python doesn't know
-how to add integers and strings together.  It can add two integers
-(and get an integer result) or two strings (and get a string result),
-but not a combination of the two.
-
-The "mysum" function that we saw earlier assigns 0 to the local
-"total" variable, and then adds each of the elements of "numbers" to
-it.  This means that if "numbers" contains any non-numbers, we're
-going to be in trouble.  Fortunately, "mypy" will be able to solve
-this problem for us.
-
-Type annotations
-----------------
-
-Python 3 introduced the idea of "type annotations," and as of Python
-3.6, we can annotate variables, not just function parameters and
-return values.  The idea is that we can put a colon (:) and then a
-type following parameter names.  For example:
-
-    def hello(name:str):
-        return f'Hello, {name}'
-
-Here, I've given the "name" parameter a type annotation of "str".  If
-you've used a statically typed language, then you might believe that
-this will add an element of type safety.  That is, you might think
-that if I try to execute:
-
-    hello(5)
-
-then I will get an error.  But in actuality, Python will ignore these
-type annotations completely. Moreover, you can use any object you want
-in an annotation; while it's typical to use a type, you can actually
-use anything.
-
-This might strike you as completely ridiculous.  Why introduce such
-annotations, if we're never going to use them?  The basic idea is that
-coding tools and extensions will be able to use the annotations for
-their own purposes, including (as we'll see in just a bit) for the
-purposes of type checking.
-
-This is important, so I'll repeat and stress it: Type annotations are
-ignored by the Python language, although it does store them in an
-attribute called "__annotations__".  For example, after defining the
-above "hello" function, we can look at its annotations, which are
-stored as a dictionary;
-
-    >>> hello.__annotations__
-    {'name': <class 'str'>}
-
-Using mypy
-----------
-
-The "mypy" type checked can be downloaded and installed with the
-standard Python "pip" package installer.  On my system, in a terminal
-window, I ran:
-
-    $ pip3 install -U mypy
-
-The "pip3" reflects that I'm using Python 3, rather than Python 2.
-And the "-U" option indicates that I'd like to upgrade my installation
-of "mypy", if the package has been updated since I last installed it
-on my computer.  If you're installing this package globally and for
-all users, then you might well need to run this as root, using "sudo".
-
-Once "mypy" is installed, you can run it, naming your file.  For
-example, let's assume that "hello.py" looks like this:
-
-    def hello(name:str):
-	return f"Hello, {name}"
-
-    print(hello('world'))
-    print(hello(5))
-    print(hello([10, 20, 30]))
-
-If I run this program, then it'll actually work fine.  But I'd like to
-use that type annotation to ensure that I'm only invoking the function
-with a string argument.  I can thus run, on the command line:
-
-    $ mypy ./hello.py
-
-I get the following output:
-
-    hello.py:7: error: Argument 1 to "hello" has incompatible type "int"; expected "str"
-    hello.py:8: error: Argument 1 to "hello" has incompatible type "List[int]"; expected "str"
-
-Sure enough, "mypy" has identified two places in which the
-expectation that I've expressed with the type annotation -- namely,
-that only strings will be passed as arguments to "hello" -- has been
-violated.  This doesn't bother Python, but it should bother us, either
-because the type annotation needs to be loosened up, or because (as in
-this case) we're calling the function with the wrong type of argument.
-
-In other words, "mypy" won't tell you what to do, or stop you from
-running your program. But it will try to give you warnings, and if you
-hook this together with a Git hook and/or with an integration and
-testing system, then you'll have a better sense of where your program
-might be having problems.
-
-Of course, "mypy" will only check where there are annotations. If you
-fail to annotate something, then "mypy" won't be able to check it.
-
-For example, we didn't annotate our function's return value.  I can
-fix that, indicating that it returns a string, with:
-
-    def hello(name:str) -> str:
-	return f"Hello, {name}"
-
-Notice that Python introduced a new syntax (the "->" arrow), and
-allowed us to stick an annotation before the end-of-line colon, in
-order for annotations to work.  Our annotation dictionary has now
-expanded, too:
-
-    >>> hello.__annotations__
-    {'name': <class 'str'>, 'return': <class 'str'>}
-
-And in case you're wondering what Python will do if you have a local
-variable named "return" which conflicts with the return value's
-annotation... well, "return" is a reserved word, and cannot be used as
-a parameter name.
-
-More sophisticated checking
----------------------------
-
-Let's go back to our "mysum" function.  What will (and won't) "mypy"
-be able to check?  For example, assume the following file:
-
-    def mysum(numbers:list) -> int:
-	output = 0
-	for one_number in numbers:
-	    output += one_number
-	return output
-
-    print(mysum([10, 20, 30, 40, 50]))
-    print(mysum((10, 20, 30, 40, 50)))
-    print(mysum([10, 20, 'abc', 'def', 50]))
-    print(mysum('abcd'))
-
-As you can see, I've annotated the "numbers" parameter to take only
-lists, and to indicate that the function will always return integers.
-And sure enough, "mypy" catches the problems:
-
-    mysum.py:10: error:
-        Argument 1 to "mysum" has incompatible type
-	        "Tuple[int, int, int, int, int]"; expected "List[Any]"
-
-    mysum.py:12: error:
-        Argument 1 to "mysum" has incompatible type
-	        "str"; expected "List[Any]"
-
-The good news is that I've identified some problems.  But in one case,
-I'm calling "mysum" with a tuple of numbers, which should be fine, but
-is flagged as a problem.  And in another case, I'm calling it  with a
-list of both integers and strings, but that's seen as just fine.
-
-I'm going to need to tell "mypy" that I'm willing to accept not just a
-list, but any sequence, such as a tuple.  Fortunately, Python now has
-a "typing" module which provides us with objects designed for use in
-such circumstances.  For example, I can say:
-
-    from typing import Sequence
-
-    def mysum(numbers:Sequence) -> int:
-	output = 0
-	for one_number in numbers:
-	    output += one_number
-	return output
-
-I've grabbed "Sequence" from the "typing" module, which includes all
-three Python sequence types -- strings, lists, and tuples.  Once I do
-that, all of our "mypy" problems disappear, because all of our
-arguments are sequences.
-
-That went a bit overboard, admittedly.  What I really want to say is
-that I'll accept any sequence whose elements are integers.  I can
-state that by changing my function's annotations to be:
-
-    from typing import Sequence
-
-    def mysum(numbers:Sequence[int]) -> int:
-	output = 0
-	for one_number in numbers:
-	    output += one_number
-	return output
-
-Notice that I've modified the annotation to be "Sequence[int]".  In
-the wake of that change, "mypy" has now found lots of problems:
-
-    mysum.py:13: error: List item 2 has incompatible type "str"; expected "int"
-    mysum.py:13: error: List item 3 has incompatible type "str"; expected "int"
-    mysum.py:14: error: Argument 1 to "mysum" has incompatible type "str"; expected "Sequence[int]"
-
-I'd call this a big success.  If someone now tries to use my function
-with the wrong type of value, then we'll call them out on it.
-
-But wait: Do I really only want to allow for lists and tuples?  What
-about sets, which are also iterable and can contain integers?  And
-besides, what's this obsession of ours with integers -- shouldn't we
-also allow for floats?
-
-We can solve the first problem by saying that we'll take not a
-"Sequence[int]", but "Iterable[int]" -- meaning, anything that is
-iterable and returns integers.  In other words, I can say:
-
-    from typing import Iterable
-
-    def mysum(numbers:Iterable[int]) -> int:
-	output = 0
-	for one_number in numbers:
-	    output += one_number
-	return output
-
-Finally, how can I allow for either integers or strings?  I use the
-special "Union" type, which lets us combine types together in square
-brackets:
-
-    from typing import Iterable, Union
-
-    def mysum(numbers:Iterable[Union[int, float]]) -> Union[int,float]:
-	output = 0
-	for one_number in numbers:
-	    output += one_number
-	return output
-
-But if we run "mypy" against this code, and try to call "mysum" with
-an iterable containing at least one float, we'll get an error:
-
-    mysum.py:9: error: Incompatible types in assignment (expression has type "float", variable has type "int")
-
-What's the problem?  Simply put, when we create "output" as a
-variable, we're giving it an integer value.  And then, when we try to
-add a floating-point value to it, we get a warning from "mypy".  We
-can silence that by annotating our variable:
-
-    def mysum(numbers:Iterable[Union[int, float]]) -> Union[int,float]:
-	output : Union[int,float] = 0
-	for one_number in numbers:
-	    output += one_number
-	return output
-
-Sure enough, our function is now pretty well annotated.  I'm too
-experienced to know that this will catch and solve all problems -- but
-if someone on my team, who wants to use my function, uses "mypy" to
-check the types, they'll get warnings.  And that's the whole point
-here, to catch problems before they're even close to production.
-
-Resources
----------
-
-You can read more about "mypy" at http://mypy-lang.org/.  That site
-has documentation, tutorials, and even information for people using
-Python 2 who want to introduce "mypy" via comments (rather than
-annotations).  
+[0][0]##
+[0][1]# User Database
+[0][2]# 
+[0][3]# Note that this file is consulted directly only when the system is running
+[0][4]# in single-user mode.  At other times this information is provided by
+[0][5]# Open Directory.
+[0][6]#
+[0][7]# See the opendirectoryd(8) man page for additional information about
+[0][8]# Open Directory.
+[0][9]##
+[0][10]nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+[0][11]root:*:0:0:System Administrator:/var/root:/bin/sh
+[0][12]daemon:*:1:1:System Services:/var/root:/usr/bin/false
+[0][13]_uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+[0][14]_taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false
+[0][15]_networkd:*:24:24:Network Services:/var/networkd:/usr/bin/false
+[0][16]_installassistant:*:25:25:Install Assistant:/var/empty:/usr/bin/false
+[0][17]_lp:*:26:26:Printing Services:/var/spool/cups:/usr/bin/false
+[0][18]_postfix:*:27:27:Postfix Mail Server:/var/spool/postfix:/usr/bin/false
+[0][19]_scsd:*:31:31:Service Configuration Service:/var/empty:/usr/bin/false
+[0][20]_ces:*:32:32:Certificate Enrollment Service:/var/empty:/usr/bin/false
+[0][21]_appstore:*:33:33:Mac App Store Service:/var/db/appstore:/usr/bin/false
+[0][22]_mcxalr:*:54:54:MCX AppLaunch:/var/empty:/usr/bin/false
+[0][23]_appleevents:*:55:55:AppleEvents Daemon:/var/empty:/usr/bin/false
+[0][24]_geod:*:56:56:Geo Services Daemon:/var/db/geod:/usr/bin/false
+[0][25]_devdocs:*:59:59:Developer Documentation:/var/empty:/usr/bin/false
+[0][26]_sandbox:*:60:60:Seatbelt:/var/empty:/usr/bin/false
+[0][27]_mdnsresponder:*:65:65:mDNSResponder:/var/empty:/usr/bin/false
+[0][28]_ard:*:67:67:Apple Remote Desktop:/var/empty:/usr/bin/false
+[0][29]_www:*:70:70:World Wide Web Server:/Library/WebServer:/usr/bin/false
+[0][30]_eppc:*:71:71:Apple Events User:/var/empty:/usr/bin/false
+[0][31]_cvs:*:72:72:CVS Server:/var/empty:/usr/bin/false
+[0][32]_svn:*:73:73:SVN Server:/var/empty:/usr/bin/false
+[0][33]_mysql:*:74:74:MySQL Server:/var/empty:/usr/bin/false
+[0][34]_sshd:*:75:75:sshd Privilege separation:/var/empty:/usr/bin/false
+[0][35]_qtss:*:76:76:QuickTime Streaming Server:/var/empty:/usr/bin/false
+[0][36]_cyrus:*:77:6:Cyrus Administrator:/var/imap:/usr/bin/false
+[0][37]_mailman:*:78:78:Mailman List Server:/var/empty:/usr/bin/false
+[0][38]_appserver:*:79:79:Application Server:/var/empty:/usr/bin/false
+[0][39]_clamav:*:82:82:ClamAV Daemon:/var/virusmails:/usr/bin/false
+[0][40]_amavisd:*:83:83:AMaViS Daemon:/var/virusmails:/usr/bin/false
+[0][41]_jabber:*:84:84:Jabber XMPP Server:/var/empty:/usr/bin/false
+[0][42]_appowner:*:87:87:Application Owner:/var/empty:/usr/bin/false
+[0][43]_windowserver:*:88:88:WindowServer:/var/empty:/usr/bin/false
+[0][44]_spotlight:*:89:89:Spotlight:/var/empty:/usr/bin/false
+[0][45]_tokend:*:91:91:Token Daemon:/var/empty:/usr/bin/false
+[0][46]_securityagent:*:92:92:SecurityAgent:/var/db/securityagent:/usr/bin/false
+[0][47]_calendar:*:93:93:Calendar:/var/empty:/usr/bin/false
+[0][48]_teamsserver:*:94:94:TeamsServer:/var/teamsserver:/usr/bin/false
+[0][49]_update_sharing:*:95:-2:Update Sharing:/var/empty:/usr/bin/false
+[0][50]_installer:*:96:-2:Installer:/var/empty:/usr/bin/false
+[0][51]_atsserver:*:97:97:ATS Server:/var/empty:/usr/bin/false
+[0][52]_ftp:*:98:-2:FTP Daemon:/var/empty:/usr/bin/false
+[0][53]_unknown:*:99:99:Unknown User:/var/empty:/usr/bin/false
+[0][54]_softwareupdate:*:200:200:Software Update Service:/var/db/softwareupdate:/usr/bin/false
+[0][55]_coreaudiod:*:202:202:Core Audio Daemon:/var/empty:/usr/bin/false
+[0][56]_screensaver:*:203:203:Screensaver:/var/empty:/usr/bin/false
+[0][57]_locationd:*:205:205:Location Daemon:/var/db/locationd:/usr/bin/false
+[0][58]_trustevaluationagent:*:208:208:Trust Evaluation Agent:/var/empty:/usr/bin/false
+[0][59]_timezone:*:210:210:AutoTimeZoneDaemon:/var/empty:/usr/bin/false
+[0][60]_lda:*:211:211:Local Delivery Agent:/var/empty:/usr/bin/false
+[0][61]_cvmsroot:*:212:212:CVMS Root:/var/empty:/usr/bin/false
+[0][62]_usbmuxd:*:213:213:iPhone OS Device Helper:/var/db/lockdown:/usr/bin/false
+[0][63]_dovecot:*:214:6:Dovecot Administrator:/var/empty:/usr/bin/false
+[0][64]_dpaudio:*:215:215:DP Audio:/var/empty:/usr/bin/false
+[0][65]_postgres:*:216:216:PostgreSQL Server:/var/empty:/usr/bin/false
+[0][66]_krbtgt:*:217:-2:Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+[0][67]_kadmin_admin:*:218:-2:Kerberos Admin Service:/var/empty:/usr/bin/false
+[0][68]_kadmin_changepw:*:219:-2:Kerberos Change Password Service:/var/empty:/usr/bin/false
+[0][69]_devicemgr:*:220:220:Device Management Server:/var/empty:/usr/bin/false
+[0][70]_webauthserver:*:221:221:Web Auth Server:/var/empty:/usr/bin/false
+[0][71]_netbios:*:222:222:NetBIOS:/var/empty:/usr/bin/false
+[0][72]_warmd:*:224:224:Warm Daemon:/var/empty:/usr/bin/false
+[0][73]_dovenull:*:227:227:Dovecot Authentication:/var/empty:/usr/bin/false
+[0][74]_netstatistics:*:228:228:Network Statistics Daemon:/var/empty:/usr/bin/false
+[0][75]_avbdeviced:*:229:-2:Ethernet AVB Device Daemon:/var/empty:/usr/bin/false
+[0][76]_krb_krbtgt:*:230:-2:Open Directory Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+[0][77]_krb_kadmin:*:231:-2:Open Directory Kerberos Admin Service:/var/empty:/usr/bin/false
+[0][78]_krb_changepw:*:232:-2:Open Directory Kerberos Change Password Service:/var/empty:/usr/bin/false
+[0][79]_krb_kerberos:*:233:-2:Open Directory Kerberos:/var/empty:/usr/bin/false
+[0][80]_krb_anonymous:*:234:-2:Open Directory Kerberos Anonymous:/var/empty:/usr/bin/false
+[0][81]_assetcache:*:235:235:Asset Cache Service:/var/empty:/usr/bin/false
+[0][82]_coremediaiod:*:236:236:Core Media IO Daemon:/var/empty:/usr/bin/false
+[0][83]_launchservicesd:*:239:239:_launchservicesd:/var/empty:/usr/bin/false
+[0][84]_iconservices:*:240:240:IconServices:/var/empty:/usr/bin/false
+[0][85]_distnote:*:241:241:DistNote:/var/empty:/usr/bin/false
+[0][86]_nsurlsessiond:*:242:242:NSURLSession Daemon:/var/db/nsurlsessiond:/usr/bin/false
+[0][87]_nsurlstoraged:*:243:243:NSURLStorage Daemon:/var/db/nsurlstoraged:/usr/bin/false
+[0][88]_displaypolicyd:*:244:244:Display Policy Daemon:/var/empty:/usr/bin/false
+[0][89]_astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
+[0][90]_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
+[0][91]_gamecontrollerd:*:247:247:Game Controller Daemon:/var/empty:/usr/bin/false
+[0][92]_mbsetupuser:*:248:248:Setup User:/var/setup:/bin/bash
+[0][93]_ondemand:*:249:249:On Demand Resource Daemon:/var/db/ondemand:/usr/bin/false
+[0][94]_xserverdocs:*:251:251:macOS Server Documents Service:/var/empty:/usr/bin/false
+[0][95]_wwwproxy:*:252:252:WWW Proxy:/var/empty:/usr/bin/false
+[0][96]_mobileasset:*:253:253:MobileAsset User:/var/ma:/usr/bin/false
+[0][97]_findmydevice:*:254:254:Find My Device Daemon:/var/db/findmydevice:/usr/bin/false
+[0][98]_datadetectors:*:257:257:DataDetectors:/var/db/datadetectors:/usr/bin/false
+[0][99]_captiveagent:*:258:258:captiveagent:/var/empty:/usr/bin/false
+[0][100]_ctkd:*:259:259:ctkd Account:/var/empty:/usr/bin/false
+[0][101]_applepay:*:260:260:applepay Account:/var/db/applepay:/usr/bin/false
+[0][102]_hidd:*:261:261:HID Service User:/var/db/hidd:/usr/bin/false
+[0][103]_cmiodalassistants:*:262:262:CoreMedia IO Assistants User:/var/db/cmiodalassistants:/usr/bin/false
+[0][104]_analyticsd:*:263:263:Analytics Daemon:/var/db/analyticsd:/usr/bin/false
+[0][105]_fpsd:*:265:265:FPS Daemon:/var/db/fpsd:/usr/bin/false
+[0][106]_timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
+[0][107]_nearbyd:*:268:268:Proximity and Ranging Daemon:/var/db/nearbyd:/usr/bin/false
+[0][108]_reportmemoryexception:*:269:269:ReportMemoryException:/var/db/reportmemoryexception:/usr/bin/false
+[0][109]_driverkit:*:270:270:DriverKit:/var/empty:/usr/bin/false
+[1][0]At the Forge: Easier Python paths with "pathlib"
+[1][1]by Reuven M. Lerner
+[1][2]
+[1][3]Working with files is one of the most common things that developers
+[1][4]do. After all, we often want to read from files (to read information
+[1][5]saved by other users, sessions, or programs) or write to files (to
+[1][6]record data for other users, sessions, or programs).
+[1][7]
+[1][8]Of course, files are located inside of directories. Navigating through
+[1][9]directories, finding files in those directories, and even extracting
+[1][10]information about directories (and the files within them) might be
+[1][11]common, but they're often frustrating to deal with. In Python, a
+[1][12]number of different modules and objects provide us with such
+[1][13]functionality, including os.path, os.stat, and glob.
+[1][14]
+[1][15]This isn't necessarily bad; the fact is that Python developers have
+[1][16]used this combination of modules, methods, and files for quite some
+[1][17]time. But if you ever felt like it was a bit clunky or old-fashioned,
+[1][18]then you're not alone.
+[1][19]
+[1][20]Indeed, it turns out that for several years already, Python's standard
+[1][21]library has come with the "pathlib" module, which makes it easier to
+[1][22]work with directories and files. I say "it turns out" because while I
+[1][23]might be a long-time developer and instructor, I only discovered
+[1][24]"pathlib" in the last few months -- and I must admit that I'm
+[1][25]completely smitten.
+[1][26]
+[1][27]"pathlib" has been described as an object-oriented way of dealing with
+[1][28]paths, and this description seems quite apt to me. Rather than working
+[1][29]with strings, we instead work with "Path" objects, which not only
+[1][30]allow us to use all of our favorite path- and file-related
+[1][31]functionality as methods, but also allow us to paper over the
+[1][32]differences between operating systems.
+[1][33]
+[1][34]This month, we'll take a look at "pathlib", comparing the ways in
+[1][35]which we might have done things before to how "pathlib" allows us to
+[1][36]do them now.
+[1][37]
+[1][38]pathlib basics
+[1][39]--------------
+[1][40]
+[1][41]If you want to work with "pathlib", then you'll need to load it into
+[1][42]your Python session.  You should start with:
+[1][43]
+[1][44]    import pathlib
+[1][45]
+[1][46]Note that if you plan to use certain names from within "pathlib" on a
+[1][47]regular basis, you'll probably want to use "from-import".  However, I
+[1][48]strongly recommend against saying "from pathlib import *" -- which
+[1][49]will indeed have the benefit of importing all of the module's names
+[1][50]into the current namespace... but it'll also have the negative effect
+[1][51]of importing all of the module's names into the current namespace.  In
+[1][52]short, import only what you need.
+[1][53]
+[1][54]Now that we've done that, we can create a new Path object.  This
+[1][55]allows us to represent a file or directory.  We can create it with a
+[1][56]string, just as we might do a path (or filename) in more traditional
+[1][57]Python code:
+[1][58]
+[1][59]    p2 = pathlib.Path('.')
+[1][60]
+[1][61]But wait a second: Do we use "pathlib.Path" to represent files, or
+[1][62]directories?  The answer is "yes" -- we can actually use it for both.
+[1][63]If you're not sure what kind of object you have, you can always ask
+[1][64]it, with the "is_dir" and "is_file" methods:
+[1][65]
+[1][66]    >>> p1 = pathlib.Path('hello.py')
+[1][67]    >>> p2 = pathlib.Path('.')
+[1][68]
+[1][69]    >>> p1.is_file()
+[1][70]    True
+[1][71]
+[1][72]    >>> p2.is_file()
+[1][73]    False
+[1][74]
+[1][75]    >>> p1.is_dir()
+[1][76]    False
+[1][77]
+[1][78]    >>> p2.is_dir()
+[1][79]    True
+[1][80]
+[1][81]Notice that just because we create a Path object doesn't mean that the
+[1][82]file or directory actually exists.  We can check that with the
+[1][83]"exists" method:
+[1][84]
+[1][85]    >>> p1 = pathlib.Path('hello.py')
+[1][86]    >>> p1.exists()
+[1][87]    True
+[1][88]
+[1][89]    >>> p2 = pathlib.Path('asdfafafsafaa')
+[1][90]    >>> p2.exists()
+[1][91]    False
+[1][92]
+[1][93]Manipulating paths
+[1][94]------------------
+[1][95]
+[1][96]Let's say that you want to work with a file 'abc.txt' in the directory
+[1][97]'/foo/bar'.  In a typical Python program, you would then say:
+[1][98]
+[1][99]    open('/foo/bar' + 'abc.txt')
+[1][100]
+[1][101]We aren't doing anything particularly exciting here; we're just
+[1][102]joining two strings together, the first of which represents a
+[1][103]directory and the second of which represents a file.  But as you can
+[1][104]see, we've already got a problem there, in that we don't have a '/'
+[1][105]separating the directory from the filename.
+[1][106]
+[1][107]We can avoid such problems by using "os.path.join".
+[1][108]
+[1][109]    >>> import os.path
+[1][110]    >>> dirname = '/foo/bar'
+[1][111]    >>> filename = 'abc.txt'
+[1][112]
+[1][113]    >>> os.path.join(dirname, filename)
+[1][114]    '/foo/bar/abc.txt'
+[1][115]
+[1][116]Using "os.path.join" not only ensures that there are slashes where we
+[1][117]need them, but it also works cross-platform, using '\' if our program
+[1][118]is running on a Windows system.
+[1][119]
+[1][120]That's nice, but "pathlib" offers us another option: We can use the
+[1][121]"/" operator, normally used for division, to join paths together.  For
+[1][122]example:
+[1][123]
+[1][124]    >>> dirname = pathlib.Path('/foo/bar')
+[1][125]
+[1][126]    >>> dirname / filename
+[1][127]    PosixPath('/foo/bar/abc.txt')
+[1][128]
+[1][129]It takes a bit of time to get used to seeing '/' between what we might
+[1][130]think of as strings. But remember that "dirname" isn't a string;
+[1][131]rather, it's a Path object. And '/' is a Python operator, which means
+[1][132]that it can be overloaded and redefined for different types.
+[1][133]
+[1][134]If you forget, and try to treat your Path object as a string, Python
+[1][135]will remind you:
+[1][136]
+[1][137]    >>> dirname + filename
+[1][138]    TypeError: unsupported operand type(s) for +: 'PosixPath' and 'str'
+[1][139]
+[1][140]Working with directories
+[1][141]------------------------
+[1][142]
+[1][143]If your Path object contains a directory, then there are a bunch of
+[1][144]directory-related methods that you can run on it. Actually, you can
+[1][145]run these methods on non-directory Path objects as well, but it won't
+[1][146]end very usefully or well.
+[1][147]
+[1][148]For example, let's say that I want to find all of the files in the
+[1][149]current directory.  I can say:
+[1][150]
+[1][151]    >>> p = pathlib.Path('.')
+[1][152]    >>>
+[1][153]    >>> p.iterdir()
+[1][154]    <generator object Path.iterdir at 0x111e4b1b0>
+[1][155]
+[1][156]Notice that the result from calling "p.iterdir()" is a generator
+[1][157]object. We can put such an object in a "for" loop or other context
+[1][158]that expects/requires iteration.  The generator will return one value
+[1][159]for each filename in our directory.
+[1][160]
+[1][161]But what if I'm not interested in getting all of the filenames?  What
+[1][162]if I only want to get those files ending with ".py"?  If I were
+[1][163]working in the Unix shell, then I'd say something like "ls *.py".
+[1][164]Such a pattern isn't a regular expression, despite what many people
+[1][165]believe.  Rather, such a pattern is known as "globbing." The "glob"
+[1][166]module in Python handles that for us, letting us say something like:
+[1][167]
+[1][168]    import glob
+[1][169]    glob.glob('*.py')
+[1][170]
+[1][171]The result of invoking "glob.glob" is a list of strings, with each
+[1][172]string containing a filename that matches the pattern.
+[1][173]
+[1][174]Path objects have similar functionality, thanks to the "glob"
+[1][175]method. Like "iterdir", the "glob" method returns a generator, meaning
+[1][176]that we can use it in a "for" loop.  For example:
+[1][177]
+[1][178]    >>> p.glob('*.py')
+[1][179]    <generator object Path.glob at 0x111b38480>
+[1][180]
+[1][181]    >>> for one_item in p.glob('*.py'):
+[1][182]        print(f"{one_item}: {type(one_item)}")
+[1][183]
+[1][184]    hello.py: <class 'pathlib.PosixPath'>
+[1][185]    reverse_lines.py: <class 'pathlib.PosixPath'>
+[1][186]    old_test_hello.py: <class 'pathlib.PosixPath'>
+[1][187]
+[1][188]The good news is that we get back the filenames in the directory. And
+[1][189]the filenames have already been filtered by "glob", so we're only
+[1][190]getting matches.  The even better news is that we get back Path
+[1][191]objects (in this case, "PosixPath" objects, since I'm on a Unix
+[1][192]system), which means that we can use all of the tricks we've enjoyed
+[1][193]so far.
+[1][194]
+[1][195]Working with files
+[1][196]------------------
+[1][197]
+[1][198]Once we have a file, what can we do with it?  Well, one obvious
+[1][199]candidate is to open it and read its contents.  We can do that with
+[1][200]the "read_bytes" and "read_text" methods, which return "bytes" and
+[1][201]string objects, respectively.
+[1][202]
+[1][203]Note that unlike the "read" method that you can typically run on a
+[1][204]"file" object in Python, both "read_text" and "read_bytes" open the
+[1][205]file, retrieve its contents, and close it again. You thus don't have
+[1][206]to worry about where the internal file pointer is located, or whether
+[1][207]you'll be reading from the start of the file or elsewhere.
+[1][208]
+[1][209]However, these methods can cause problems if you read from a
+[1][210]particularly large file.  Python will happily read as much as it can
+[1][211]into a huge string, potentially using all (or most) of the memory on
+[1][212]your computer.
+[1][213]
+[1][214]A better strategy, and a traditional one in Python, is to read through
+[1][215]the file's contents one line at a time.  This is accomplished by
+[1][216]putting an open "file" object into a "for" loop; file objects are
+[1][217]iterable, and return one line (i.e., up to and including the following
+[1][218]newline) in each iteration.
+[1][219]
+[1][220]Note that while we can certainly use the builtin "open" function, we
+[1][221]can also take advantage of the "open" method for Path objects:
+[1][222]
+[1][223]    >>> p = pathlib.Path('hello.py')
+[1][224]
+[1][225]    >>> for one_line in p.open():
+[1][226]    >>>     print(one_line)
+[1][227]    
+[1][228]This will print all of the lines in the file; notice that "open" knows
+[1][229]how to work with a Path object just as easily as a string. However,
+[1][230]you'll also notice that when you print the file, the lines are
+[1][231]double-spaced. That's because each iteration includes the newline
+[1][232]character, and "print" also inserts a newline character after each
+[1][233]line it prints.  We can adjust this by passing an empty string to the
+[1][234]"end" parameter in the "print" function:
+[1][235]
+[1][236]    >>> for one_line in p.open():
+[1][237]    >>>     print(one_line, end='')
+[1][238]
+[1][239]Aside from opening files, we can also invoke a number of other methods
+[1][240]on a Path object.  For example, I mentioned before that we might not
+[1][241]want to read the entirety of a large file into memory.  We can check
+[1][242]the file's size, as well as many other attributes, using the "stat"
+[1][243]method. This method, like the traditional "os.stat" Python function,
+[1][244]returns a file's size in bytes:
+[1][245]
+[1][246]    >>> p.stat().st_size
+[1][247]    123
+[1][248]
+[1][249]You can similarly retrieve other items that "stat" reports, including
+[1][250]the file's most recent modification timestamp, and IDs of the user and
+[1][251]group that own the file.
+[1][252]
+[1][253]If you want to manipulate the filename, you can do so with such
+[1][254]methods as "suffix":
+[1][255]
+[1][256]    >>> p.suffix()
+[1][257]    '.py'
+[1][258]
+[1][259]Conclusion
+[1][260]----------
+[1][261]
+[1][262]If you work with files on a regular basis from within Python programs,
+[1][263]then I suggest you look at "pathlib".  It's not revolutionary, but it
+[1][264]does help to bring a lot of file-manipulating code under one
+[1][265]roof. Moreover, the '/' syntax, while odd looking at the start,
+[1][266]emphasizes the fact that we're dealing with "Path" objects, rather
+[1][267]than strings. And besides, it's just convenient to have access to so
+[1][268]much functionality without having to remember where it's
+[1][269]located.
+[1][270]
+[1][271]Resources
+[1][272]---------
+[1][273]
+[1][274]Pathlib was first proposed (and accepted) in PEP 428, which is worth
+[1][275]reading at: https://www.python.org/dev/peps/pep-0428/.  It has been
+[1][276]around since Python 3.4.  If you're still using Python 2.7, a package
+[1][277]is available on PyPI with a backport, known as "pathlib2".
+[1][278]
+[1][279]
+[2][0]At the Forge: MyPy
+[2][1]by Reuven M. Lerner
+[2][2]
+[2][3]Tighten up your code, and identify errors before they occur, with "mypy"
+[2][4]
+[2][5]I've been using dynamic languages -- Perl, Ruby, and Python -- for
+[2][6]many years. I love the flexibility and expressiveness that such
+[2][7]languages provide.  For example, I can define a function that sums
+[2][8]numbers:
+[2][9]
+[2][10]    def mysum(numbers):
+[2][11]        total = 0
+[2][12]	for one_number in numbers:
+[2][13]	    total += one_number
+[2][14]	return total
+[2][15]
+[2][16]The above function will work on any iterable that returns numbers. So
+[2][17]I can run the above on a list, tuple, or set of numbers. I can even
+[2][18]run it on a dictionary whose keys are all numbers.  Pretty great,
+[2][19]right?
+[2][20]
+[2][21]Yes, but for my students who are used to static, compiled languages,
+[2][22]this is a very hard thing to get used to. After all, how can we make
+[2][23]sure that no one passes us a string, or a number of strings?  What if
+[2][24]we get a list in which some, but not all, of the elements are numeric?
+[2][25]
+[2][26]For a number of years, I used to dismiss such worries. After all,
+[2][27]dynamic languages have been around for years, and have done a good
+[2][28]job. And really, if people are having these sorts of type mismatch
+[2][29]errors, then maybe they should be paying closer attention.  And if you
+[2][30]have enough testing, then you'll probably be fine.
+[2][31]
+[2][32]But as Python (and other dynamic languages) have been making inroads
+[2][33]into large companies, I've become increasingly convinced that there's
+[2][34]something to be said for type checking. In particular, the fact that a
+[2][35]many newcomers to Python are working on large projects, in which many
+[2][36]parts need to interoperate, have made it clear to me that some sort of
+[2][37]type checking can be useful.
+[2][38]
+[2][39]How can we balance these needs?  That is, how can we enjoy Python as a
+[2][40]dynamically typed language, while simultaneously getting some added
+[2][41]sense of static-typing stability?
+[2][42]
+[2][43]One of the most popular answers is a system known as "mypy", which
+[2][44]takes advantage of Python 3's type annotations for its own purposes.
+[2][45]Using "mypy" means that we can write and run Python in the normal way,
+[2][46]gradually adding static type checking over time and checking it
+[2][47]outside of our program's execution.
+[2][48]
+[2][49]This month, we'll start to look at "mypy" and how we can use it to
+[2][50]check for problems in our programs.  I've been impressed by "mypy",
+[2][51]and believe that we're likely to see it deployed in a growing number
+[2][52]of places, in no small part because it's optional, and thus allows
+[2][53]developers to use it to whatever degree they deem necessary,
+[2][54]tightening things up over time, as well.
+[2][55]
+[2][56]Dynamic + strong typing
+[2][57]-----------------------
+[2][58]
+[2][59]In Python, we enjoy not only dynamic typing, but also strong typing.
+[2][60]"Dynamic" means that variables don't have types, but that values do.
+[2][61]So we can say:
+[2][62]
+[2][63]    >>> x = 100
+[2][64]    >>> print(type(x))
+[2][65]    int
+[2][66]
+[2][67]    >>> x = 'abcd'
+[2][68]    >>> print(type(x))
+[2][69]    str
+[2][70]    
+[2][71]    >>> x = [10, 20, 30]
+[2][72]    >>> print(type(x))
+[2][73]    list
+[2][74]
+[2][75]As you can see, I can run the above code, and it'll work just fine.
+[2][76]It's not particularly useful, per se, but it would never pass even a
+[2][77]first-pass compilation in a statically compiled language.  That's
+[2][78]because in such languages, variables have types -- meaning that if you
+[2][79]try to assign an integer to a string variable, you'll get an error.
+[2][80]
+[2][81]In a dynamic language, by contrast, variables don't have types at
+[2][82]all.  Running the "type" function, as I did above, doesn't actually
+[2][83]return the variable's type, but rather then type of data to which the
+[2][84]variable currently points.
+[2][85]
+[2][86]Just because a language is dynamically typed doesn't mean that it's
+[2][87]totally loosey-goosey, letting me do whatever I want. (And yes, that
+[2][88]is the technical term.)  For example, I can try this:
+[2][89]
+[2][90]    >>> x = 1
+[2][91]    >>> y = '1'
+[2][92]    >>> print(x+y)
+[2][93]
+[2][94]The above code will result in an error, because Python doesn't know
+[2][95]how to add integers and strings together.  It can add two integers
+[2][96](and get an integer result) or two strings (and get a string result),
+[2][97]but not a combination of the two.
+[2][98]
+[2][99]The "mysum" function that we saw earlier assigns 0 to the local
+[2][100]"total" variable, and then adds each of the elements of "numbers" to
+[2][101]it.  This means that if "numbers" contains any non-numbers, we're
+[2][102]going to be in trouble.  Fortunately, "mypy" will be able to solve
+[2][103]this problem for us.
+[2][104]
+[2][105]Type annotations
+[2][106]----------------
+[2][107]
+[2][108]Python 3 introduced the idea of "type annotations," and as of Python
+[2][109]3.6, we can annotate variables, not just function parameters and
+[2][110]return values.  The idea is that we can put a colon (:) and then a
+[2][111]type following parameter names.  For example:
+[2][112]
+[2][113]    def hello(name:str):
+[2][114]        return f'Hello, {name}'
+[2][115]
+[2][116]Here, I've given the "name" parameter a type annotation of "str".  If
+[2][117]you've used a statically typed language, then you might believe that
+[2][118]this will add an element of type safety.  That is, you might think
+[2][119]that if I try to execute:
+[2][120]
+[2][121]    hello(5)
+[2][122]
+[2][123]then I will get an error.  But in actuality, Python will ignore these
+[2][124]type annotations completely. Moreover, you can use any object you want
+[2][125]in an annotation; while it's typical to use a type, you can actually
+[2][126]use anything.
+[2][127]
+[2][128]This might strike you as completely ridiculous.  Why introduce such
+[2][129]annotations, if we're never going to use them?  The basic idea is that
+[2][130]coding tools and extensions will be able to use the annotations for
+[2][131]their own purposes, including (as we'll see in just a bit) for the
+[2][132]purposes of type checking.
+[2][133]
+[2][134]This is important, so I'll repeat and stress it: Type annotations are
+[2][135]ignored by the Python language, although it does store them in an
+[2][136]attribute called "__annotations__".  For example, after defining the
+[2][137]above "hello" function, we can look at its annotations, which are
+[2][138]stored as a dictionary;
+[2][139]
+[2][140]    >>> hello.__annotations__
+[2][141]    {'name': <class 'str'>}
+[2][142]
+[2][143]Using mypy
+[2][144]----------
+[2][145]
+[2][146]The "mypy" type checked can be downloaded and installed with the
+[2][147]standard Python "pip" package installer.  On my system, in a terminal
+[2][148]window, I ran:
+[2][149]
+[2][150]    $ pip3 install -U mypy
+[2][151]
+[2][152]The "pip3" reflects that I'm using Python 3, rather than Python 2.
+[2][153]And the "-U" option indicates that I'd like to upgrade my installation
+[2][154]of "mypy", if the package has been updated since I last installed it
+[2][155]on my computer.  If you're installing this package globally and for
+[2][156]all users, then you might well need to run this as root, using "sudo".
+[2][157]
+[2][158]Once "mypy" is installed, you can run it, naming your file.  For
+[2][159]example, let's assume that "hello.py" looks like this:
+[2][160]
+[2][161]    def hello(name:str):
+[2][162]	return f"Hello, {name}"
+[2][163]
+[2][164]    print(hello('world'))
+[2][165]    print(hello(5))
+[2][166]    print(hello([10, 20, 30]))
+[2][167]
+[2][168]If I run this program, then it'll actually work fine.  But I'd like to
+[2][169]use that type annotation to ensure that I'm only invoking the function
+[2][170]with a string argument.  I can thus run, on the command line:
+[2][171]
+[2][172]    $ mypy ./hello.py
+[2][173]
+[2][174]I get the following output:
+[2][175]
+[2][176]    hello.py:7: error: Argument 1 to "hello" has incompatible type "int"; expected "str"
+[2][177]    hello.py:8: error: Argument 1 to "hello" has incompatible type "List[int]"; expected "str"
+[2][178]
+[2][179]Sure enough, "mypy" has identified two places in which the
+[2][180]expectation that I've expressed with the type annotation -- namely,
+[2][181]that only strings will be passed as arguments to "hello" -- has been
+[2][182]violated.  This doesn't bother Python, but it should bother us, either
+[2][183]because the type annotation needs to be loosened up, or because (as in
+[2][184]this case) we're calling the function with the wrong type of argument.
+[2][185]
+[2][186]In other words, "mypy" won't tell you what to do, or stop you from
+[2][187]running your program. But it will try to give you warnings, and if you
+[2][188]hook this together with a Git hook and/or with an integration and
+[2][189]testing system, then you'll have a better sense of where your program
+[2][190]might be having problems.
+[2][191]
+[2][192]Of course, "mypy" will only check where there are annotations. If you
+[2][193]fail to annotate something, then "mypy" won't be able to check it.
+[2][194]
+[2][195]For example, we didn't annotate our function's return value.  I can
+[2][196]fix that, indicating that it returns a string, with:
+[2][197]
+[2][198]    def hello(name:str) -> str:
+[2][199]	return f"Hello, {name}"
+[2][200]
+[2][201]Notice that Python introduced a new syntax (the "->" arrow), and
+[2][202]allowed us to stick an annotation before the end-of-line colon, in
+[2][203]order for annotations to work.  Our annotation dictionary has now
+[2][204]expanded, too:
+[2][205]
+[2][206]    >>> hello.__annotations__
+[2][207]    {'name': <class 'str'>, 'return': <class 'str'>}
+[2][208]
+[2][209]And in case you're wondering what Python will do if you have a local
+[2][210]variable named "return" which conflicts with the return value's
+[2][211]annotation... well, "return" is a reserved word, and cannot be used as
+[2][212]a parameter name.
+[2][213]
+[2][214]More sophisticated checking
+[2][215]---------------------------
+[2][216]
+[2][217]Let's go back to our "mysum" function.  What will (and won't) "mypy"
+[2][218]be able to check?  For example, assume the following file:
+[2][219]
+[2][220]    def mysum(numbers:list) -> int:
+[2][221]	output = 0
+[2][222]	for one_number in numbers:
+[2][223]	    output += one_number
+[2][224]	return output
+[2][225]
+[2][226]    print(mysum([10, 20, 30, 40, 50]))
+[2][227]    print(mysum((10, 20, 30, 40, 50)))
+[2][228]    print(mysum([10, 20, 'abc', 'def', 50]))
+[2][229]    print(mysum('abcd'))
+[2][230]
+[2][231]As you can see, I've annotated the "numbers" parameter to take only
+[2][232]lists, and to indicate that the function will always return integers.
+[2][233]And sure enough, "mypy" catches the problems:
+[2][234]
+[2][235]    mysum.py:10: error:
+[2][236]        Argument 1 to "mysum" has incompatible type
+[2][237]	        "Tuple[int, int, int, int, int]"; expected "List[Any]"
+[2][238]
+[2][239]    mysum.py:12: error:
+[2][240]        Argument 1 to "mysum" has incompatible type
+[2][241]	        "str"; expected "List[Any]"
+[2][242]
+[2][243]The good news is that I've identified some problems.  But in one case,
+[2][244]I'm calling "mysum" with a tuple of numbers, which should be fine, but
+[2][245]is flagged as a problem.  And in another case, I'm calling it  with a
+[2][246]list of both integers and strings, but that's seen as just fine.
+[2][247]
+[2][248]I'm going to need to tell "mypy" that I'm willing to accept not just a
+[2][249]list, but any sequence, such as a tuple.  Fortunately, Python now has
+[2][250]a "typing" module which provides us with objects designed for use in
+[2][251]such circumstances.  For example, I can say:
+[2][252]
+[2][253]    from typing import Sequence
+[2][254]
+[2][255]    def mysum(numbers:Sequence) -> int:
+[2][256]	output = 0
+[2][257]	for one_number in numbers:
+[2][258]	    output += one_number
+[2][259]	return output
+[2][260]
+[2][261]I've grabbed "Sequence" from the "typing" module, which includes all
+[2][262]three Python sequence types -- strings, lists, and tuples.  Once I do
+[2][263]that, all of our "mypy" problems disappear, because all of our
+[2][264]arguments are sequences.
+[2][265]
+[2][266]That went a bit overboard, admittedly.  What I really want to say is
+[2][267]that I'll accept any sequence whose elements are integers.  I can
+[2][268]state that by changing my function's annotations to be:
+[2][269]
+[2][270]    from typing import Sequence
+[2][271]
+[2][272]    def mysum(numbers:Sequence[int]) -> int:
+[2][273]	output = 0
+[2][274]	for one_number in numbers:
+[2][275]	    output += one_number
+[2][276]	return output
+[2][277]
+[2][278]Notice that I've modified the annotation to be "Sequence[int]".  In
+[2][279]the wake of that change, "mypy" has now found lots of problems:
+[2][280]
+[2][281]    mysum.py:13: error: List item 2 has incompatible type "str"; expected "int"
+[2][282]    mysum.py:13: error: List item 3 has incompatible type "str"; expected "int"
+[2][283]    mysum.py:14: error: Argument 1 to "mysum" has incompatible type "str"; expected "Sequence[int]"
+[2][284]
+[2][285]I'd call this a big success.  If someone now tries to use my function
+[2][286]with the wrong type of value, then we'll call them out on it.
+[2][287]
+[2][288]But wait: Do I really only want to allow for lists and tuples?  What
+[2][289]about sets, which are also iterable and can contain integers?  And
+[2][290]besides, what's this obsession of ours with integers -- shouldn't we
+[2][291]also allow for floats?
+[2][292]
+[2][293]We can solve the first problem by saying that we'll take not a
+[2][294]"Sequence[int]", but "Iterable[int]" -- meaning, anything that is
+[2][295]iterable and returns integers.  In other words, I can say:
+[2][296]
+[2][297]    from typing import Iterable
+[2][298]
+[2][299]    def mysum(numbers:Iterable[int]) -> int:
+[2][300]	output = 0
+[2][301]	for one_number in numbers:
+[2][302]	    output += one_number
+[2][303]	return output
+[2][304]
+[2][305]Finally, how can I allow for either integers or strings?  I use the
+[2][306]special "Union" type, which lets us combine types together in square
+[2][307]brackets:
+[2][308]
+[2][309]    from typing import Iterable, Union
+[2][310]
+[2][311]    def mysum(numbers:Iterable[Union[int, float]]) -> Union[int,float]:
+[2][312]	output = 0
+[2][313]	for one_number in numbers:
+[2][314]	    output += one_number
+[2][315]	return output
+[2][316]
+[2][317]But if we run "mypy" against this code, and try to call "mysum" with
+[2][318]an iterable containing at least one float, we'll get an error:
+[2][319]
+[2][320]    mysum.py:9: error: Incompatible types in assignment (expression has type "float", variable has type "int")
+[2][321]
+[2][322]What's the problem?  Simply put, when we create "output" as a
+[2][323]variable, we're giving it an integer value.  And then, when we try to
+[2][324]add a floating-point value to it, we get a warning from "mypy".  We
+[2][325]can silence that by annotating our variable:
+[2][326]
+[2][327]    def mysum(numbers:Iterable[Union[int, float]]) -> Union[int,float]:
+[2][328]	output : Union[int,float] = 0
+[2][329]	for one_number in numbers:
+[2][330]	    output += one_number
+[2][331]	return output
+[2][332]
+[2][333]Sure enough, our function is now pretty well annotated.  I'm too
+[2][334]experienced to know that this will catch and solve all problems -- but
+[2][335]if someone on my team, who wants to use my function, uses "mypy" to
+[2][336]check the types, they'll get warnings.  And that's the whole point
+[2][337]here, to catch problems before they're even close to production.
+[2][338]
+[2][339]Resources
+[2][340]---------
+[2][341]
+[2][342]You can read more about "mypy" at http://mypy-lang.org/.  That site
+[2][343]has documentation, tutorials, and even information for people using
+[2][344]Python 2 who want to introduce "mypy" via comments (rather than
+[2][345]annotations).  
