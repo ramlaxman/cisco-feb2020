@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-# list of tuples
+# list of dicts
 
-movies = [('Spotlight', 129, 'Tom McCarthy'),
-          ('The Big Short', 130, 'Adam McKay'),
+movies = [{'name': 'Spotlight', 'length': 129, 'director': 'Tom McCarthy'},
+          {'name': 'The Big Short', 'length': 130, 'director': 'Adam McKay'},
           ('The Martian', 141, 'Ridley Scott')]
 
 look_for = input("Enter movie title: ")
