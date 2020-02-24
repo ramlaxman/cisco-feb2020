@@ -14,6 +14,5 @@ for one_movie in movies:
         print(f"Found {look_for}, {one_movie[1]} min, dir {one_movie[2]}")
         found = True
         break
-
-if not found:
+else:  # no break encountered in the for loop
     print(f"Sorry, didn't find {look_for}")
