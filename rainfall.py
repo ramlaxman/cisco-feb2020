@@ -8,4 +8,5 @@ while True:
         break
 
     mm_rain = input("Rain: ").strip()
-    rainfall[city_name] += mm_rain
+
+    rainfall[city_name] = rainfall.get(city_name, 0) + mm_rain
