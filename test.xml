@@ -1,5 +1,7 @@
+# myxml('lonely')
 <lonely></lonely>
 
+# myxml('name', 'Reuven Lerner')
 <name>Reuven Lerner</name>
 
 <name>
