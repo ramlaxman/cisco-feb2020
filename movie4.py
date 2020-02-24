@@ -13,6 +13,5 @@ if look_for in movies:
     one_movie = movies[look_for]
     print(
         f"Found {look_for}, {one_movie['length']} min, dir {one_movie['director']}")
-    break
-else:  # no break encountered in the for loop
+else:
     print(f"Sorry, didn't find {look_for}")
