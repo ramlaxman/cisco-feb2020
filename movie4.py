@@ -10,6 +10,7 @@ movies = {'Spotlight': {'length': 129, 'director': 'Tom McCarthy'},
 look_for = input("Enter movie title: ")
 
 if look_for in movies:
+    one_movie = movies[look_for]
     print(
         f"Found {look_for}, {one_movie['length']} min, dir {one_movie['director']}")
     break
