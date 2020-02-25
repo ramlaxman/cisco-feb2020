@@ -6,6 +6,8 @@ import random
 def create_password_maker(s):
     def inner(n):
         output = ''
+        for i in range(n):
+            output += random.choice(s)
         return output
     return inner
 
