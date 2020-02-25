@@ -28,6 +28,10 @@ while True:
     if not s:
         break
 
+    if not s.count(' ') == 3:
+        print("Wrong number of words; try again")
+        continue
+
     first, op, second = s.split()
 
     if op in ops:
