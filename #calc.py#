@@ -24,4 +24,9 @@ ops = {'+':add,
 while True:
     s = input("Enter an expression: ").strip()
 
-    i
+    if not s:
+        break
+
+    first, op, second = s.split()
+
+    
