@@ -8,5 +8,8 @@ def line_to_dict(one_line):
             'size': size}
 
 
-[line_to_dict(one_line)
- for one_line in open('shoe-data.txt')]
+shoes = [line_to_dict(one_line)
+         for one_line in open('shoe-data.txt')]
+
+for one_shoe in shoes:
+    print(one_shoe)
