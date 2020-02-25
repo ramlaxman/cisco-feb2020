@@ -32,7 +32,9 @@ user_field = input("Enter field for sorting: ").strip()
 #     return shoe_dict[user_field]
 
 
-shoes = sorted(shoes, key=by_user_choice)
+# shoes = sorted(shoes, key=by_user_choice)
+
+shoes = sorted(shoes, key=operator.itemgetter(user_field))
 
 for one_shoe in shoes:
     print(one_shoe)
