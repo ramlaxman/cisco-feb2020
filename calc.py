@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import operator
+
 
 def add(a, b):
     return a + b
@@ -17,10 +19,10 @@ def div(a, b):
     return a / b
 
 
-ops = {'+': add,
-       '-': sub,
-       '*': mul,
-       '/': div}
+ops = {'+': operator.add,
+       '-': operator.sub,
+       '*': operator.mul,
+       '/': operator.truediv}
 
 while True:
     s = input("Enter an expression: ").strip()
