@@ -34,6 +34,11 @@ while True:
 
     first, op, second = s.split()
 
+    if not first.isdigit():
+        print(f'{first} is not numeric')
+    if not second.isdigit():
+        print(f'{second} is not numeric')
+
     if op in ops:
         print(ops[op](int(first), int(second)))
     else:
