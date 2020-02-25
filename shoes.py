@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import operator
+
 
 def line_to_dict(one_line):
     brand, color, size = one_line.strip().split('\t')
