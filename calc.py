@@ -36,8 +36,10 @@ while True:
 
     if not first.isdigit():
         print(f'{first} is not numeric')
+        continue
     if not second.isdigit():
         print(f'{second} is not numeric')
+        continue
 
     if op in ops:
         print(ops[op](int(first), int(second)))
