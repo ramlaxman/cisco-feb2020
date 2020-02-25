@@ -11,7 +11,12 @@ def line_to_dict(one_line):
 shoes = [line_to_dict(one_line)
          for one_line in open('shoe-data.txt')]
 
-shoes = sorted(shoes)
+
+def by_size(shoe_dict):
+    return shoe_dict['size']
+
+
+shoes = sorted(shoes, key=by_size)
 
 for one_shoe in shoes:
     print(one_shoe)
