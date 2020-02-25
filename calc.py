@@ -33,4 +33,4 @@ while True:
     if op in ops:
         print(ops[op](int(first), int(second)))
     else:
-        print(f"No operator {op}"
+        print(f"No operator {op}")
