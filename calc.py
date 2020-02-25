@@ -28,7 +28,7 @@ while True:
     if not s:
         break
 
-    if not s.count(' ') == 3:
+    if not s.count(' ') == 2:
         print("Wrong number of words; try again")
         continue
 
