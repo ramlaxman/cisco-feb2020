@@ -34,7 +34,7 @@ user_fields = input("Enter field(s) for sorting: ").split()
 
 # shoes = sorted(shoes, key=by_user_choice)
 
-shoes = sorted(shoes, key=operator.itemgetter(user_field))
+shoes = sorted(shoes, key=operator.itemgetter(*user_fields))
 
 for one_shoe in shoes:
     print(one_shoe)
