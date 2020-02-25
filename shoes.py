@@ -16,7 +16,12 @@ def by_size(shoe_dict):
     return shoe_dict['size']
 
 
-shoes = sorted(shoes, key=by_size)
+def by_brand_and_size(shoe_dict):
+    return shoe_dict['brand'], shoe_dict['size']
+
+
+# shoes = sorted(shoes, key=by_size)
+shoes = sorted(shoes, key=by_brand_and_size)
 
 for one_shoe in shoes:
     print(one_shoe)
