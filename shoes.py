@@ -24,6 +24,12 @@ def by_brand_and_size(shoe_dict):
 # shoes = sorted(shoes, key=by_brand_and_size)
 
 user_field = input("Enter field for sorting: ").strip()
+
+
+def by_user_choice(shoe_dict):
+    return shoe_dict[user_field]
+
+
 shoes = sorted(shoes, key=by_user_choice)
 
 for one_shoe in shoes:
