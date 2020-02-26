@@ -5,6 +5,9 @@ class Scoop():
     def __init__(self, flavor):
         self.flavor = flavor
 
+    def __repr__(self):
+        return f'Scoop of {self.flavor}'
+
 
 class Bowl():
     max_scoops = 3
