@@ -1,6 +1,6 @@
 print("Hello from mymod!")
 
-__ALL__ = ['x']
+__all__ = ['x']
 
 x = [10, 20, 30]
 
