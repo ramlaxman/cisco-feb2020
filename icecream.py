@@ -34,7 +34,7 @@ b = Bowl()
 b.add_scoops(s1, s2)  # notice: different number of scoops
 b.add_scoops(s3)  # in each call to add_scoops
 b.add_scoops(s4, s5)
-b.flavors()   # return a string of flavors from the scoops
+print(b.flavors())   # return a string of flavors from the scoops
 
 
 # Create a BigBowl class
