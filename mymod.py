@@ -1,5 +1,7 @@
 print("Hello from mymod!")
 
+__ALL__ = ['x', 'y', '_z', 'hello']
+
 x = [10, 20, 30]
 
 y = 100
