@@ -13,7 +13,7 @@ class Bowl():
         self.scoops = []
 
     def add_scoops(self, *args):
-        self.scoops += args[:Bowl.max_scoops - len(self.scoops)]
+        self.scoops += args[:self.max_scoops - len(self.scoops)]
 #         for new_scoop in args:
 #             if len(self.scoops) >= Bowl.max_scoops:
 #                 break
