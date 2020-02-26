@@ -52,3 +52,5 @@ print(bb.flavors())   # return a string of flavors from the scoops
 # with a max of 5 scoops
 # - reuse as much code as possible
 # - but also make sure that each class continues to work
+
+print(s1)
