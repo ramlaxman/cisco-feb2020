@@ -26,6 +26,10 @@ class Bowl():
         return [one_scoop.flavor
                 for one_scoop in self.scoops]
 
+    def __repr__(self):
+        output = 'Bowl of:\n'
+        return output
+
 
 s1 = Scoop('chocolate')
 s2 = Scoop('vanilla')
