@@ -36,6 +36,21 @@ b.add_scoops(s3)  # in each call to add_scoops
 b.add_scoops(s4, s5)
 print(b.flavors())   # return a string of flavors from the scoops
 
+
+class Bowl():
+    max_scoops = 3
+
+    def __init__(self):
+        self.scoops = []
+
+    def add_scoops(self, *args):
+        self.scoops += args[:Bowl.max_scoops - len(self.scoops)]
+
+    def flavors(self):
+        return [one_scoop.flavor
+                for one_scoop in self.scoops]
+
+
 bb = BigBowl()
 bb.add_scoops(s1, s2)  # notice: different number of scoops
 bb.add_scoops(s3)  # in each call to add_scoops
