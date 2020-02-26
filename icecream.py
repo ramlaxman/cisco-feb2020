@@ -36,6 +36,12 @@ b.add_scoops(s3)  # in each call to add_scoops
 b.add_scoops(s4, s5)
 print(b.flavors())   # return a string of flavors from the scoops
 
+bb = BigBowl()
+bb.add_scoops(s1, s2)  # notice: different number of scoops
+bb.add_scoops(s3)  # in each call to add_scoops
+bb.add_scoops(s4, s5)
+print(bb.flavors())   # return a string of flavors from the scoops
+
 
 # Create a BigBowl class
 # with a max of 5 scoops
