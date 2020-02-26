@@ -57,3 +57,4 @@ print(bb.flavors())   # return a string of flavors from the scoops
 # - but also make sure that each class continues to work
 
 print(s1)
+print(b)
