@@ -40,9 +40,6 @@ print(b.flavors())   # return a string of flavors from the scoops
 class BigBowl(Bowl):
     max_scoops = 5
 
-    def add_scoops(self, *args):
-        self.scoops += args[:BigBowl.max_scoops - len(self.scoops)]
-
 
 bb = BigBowl()
 bb.add_scoops(s1, s2)  # notice: different number of scoops
