@@ -37,8 +37,8 @@ b.add_scoops(s4, s5)
 print(b.flavors())   # return a string of flavors from the scoops
 
 
-class Bowl():
-    max_scoops = 3
+class BigBowl():
+    max_scoops = 5
 
     def __init__(self):
         self.scoops = []
