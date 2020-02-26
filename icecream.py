@@ -28,8 +28,8 @@ class Bowl():
 
     def __repr__(self):
         output = 'Bowl of:\n'
-        '\n'.join([f'\t{one_scoop}'
-                   for one_scoop in self.scoops])
+        output += '\n'.join([f'\t{one_scoop}'
+                             for one_scoop in self.scoops])
         return output
 
 
