@@ -44,7 +44,7 @@ class BigBowl():
         self.scoops = []
 
     def add_scoops(self, *args):
-        self.scoops += args[:Bowl.max_scoops - len(self.scoops)]
+        self.scoops += args[:BigBowl.max_scoops - len(self.scoops)]
 
     def flavors(self):
         return [one_scoop.flavor
