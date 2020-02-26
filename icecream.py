@@ -64,3 +64,4 @@ print(bb.flavors())   # return a string of flavors from the scoops
 
 print(s1)
 print(b)
+print(bb)
