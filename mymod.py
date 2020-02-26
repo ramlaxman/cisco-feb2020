@@ -4,6 +4,8 @@ x = [10, 20, 30]
 
 y = 100
 
+_z = 'shhhhh!'
+
 
 def hello(name):
     return f'Hello, {name}'
