@@ -16,15 +16,15 @@ def hello(i):
     q.put(i)
 
 
-threads = []
+processes = []
 for i in range(10):
-    t = Thread(target=hello, args=(i,))
-    t.start()
-    threads.append(t)
+    p = Process(target=hello, args=(i,))
+    p.start()
+    processes.append(p)
 
 # Make sure all threads are done by now
-for one_thread in threads:
-    one_thread.join()  # I'll wait/block until one_thread is complete
+for one_process in processes:
+    one_process.join()  # I'll wait/block until one_thread is complete
 
 
 print("Done!")
