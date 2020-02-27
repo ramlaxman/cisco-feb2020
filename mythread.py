@@ -11,8 +11,9 @@ l = Lock()
 
 def hello(i):
     sleep(randint(0, 2))
-    print(f"{i} Hello!")
-    print(f"{i} Goodbye!")
+    with l:
+        print(f"{i} Hello!")
+        print(f"{i} Goodbye!")
     q.put(i)
 
 
