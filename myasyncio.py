@@ -8,6 +8,12 @@ async def hello():
         print(f"{i} Hello!")
 
 
+async def goodbye():
+    for i in range(5):
+        print(f"{i} Goodbye!")
+
+
 loop = asyncio.get_event_loop()
 loop.create_task(hello())
+loop.create_task(goodbye())
 loop.run_forever()
