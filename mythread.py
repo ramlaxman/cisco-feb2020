@@ -15,9 +15,14 @@ def hello(i):
     q.put(i)
 
 
+threads = []
 for i in range(10):
     t = Thread(target=hello, args=(i,))
     t.start()
+    threads.append(t)
+
+# Make sure all threads are done by now
+
 
 print("Done!")
 
