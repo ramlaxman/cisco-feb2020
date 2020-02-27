@@ -6,4 +6,5 @@ Maybe even some data, on a good day.
 
 
 def myfunc():
+    """Simple function that says 'Hello!'"""
     print("Hello")
