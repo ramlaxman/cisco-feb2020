@@ -29,3 +29,5 @@ for one_thread in threads:
 print("Done!")
 
 # Now that they're done, grab things from the queue
+while not q.empty():
+    print(q.get())
