@@ -22,6 +22,8 @@ for i in range(10):
     threads.append(t)
 
 # Make sure all threads are done by now
+for one_thread in threads:
+    one_thread.join()  # I'll wait/block until one_thread is complete
 
 
 print("Done!")
