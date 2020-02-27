@@ -2,9 +2,9 @@
 
 import asyncio
 
+
 def hello():
     print("Hello!")
 
 
-
-loop = 
+loop = ayncio.get_event_loop()
