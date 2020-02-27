@@ -18,3 +18,7 @@ def hello(i):
 for i in range(10):
     t = Thread(target=hello, args=(i,))
     t.start()
+
+print("Done!")
+
+# Now that they're done, grab things from the queue
