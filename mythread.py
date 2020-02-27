@@ -7,5 +7,6 @@ def hello():
     print("Hello!")
 
 
-t = Thread(target=hello)
-t.start()
+for i in range(10):
+    t = Thread(target=hello)
+    t.start()
