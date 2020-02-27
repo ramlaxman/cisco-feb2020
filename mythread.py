@@ -8,6 +8,7 @@ from random import randint
 def hello(i):
     sleep(randint(0, 2))
     print(f"{i} Hello!")
+    print(f"{i} Goodbye!")
 
 
 for i in range(10):
