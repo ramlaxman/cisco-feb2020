@@ -5,10 +5,6 @@ Maybe even some data, on a good day.
 """
 
 
-def myfunc(x):
+def myfunc():
     """Simple function that says 'Hello!'"""
     print("Hello")
-
-
-mylist = [10,      20, 30,     40,      50]
-myfunc(5)
