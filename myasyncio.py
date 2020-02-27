@@ -7,4 +7,5 @@ def hello():
     print("Hello!")
 
 
-loop = ayncio.get_event_loop()
+loop = asyncio.get_event_loop()
+loop.run_forever()
