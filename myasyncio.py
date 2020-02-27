@@ -4,7 +4,8 @@ import asyncio
 
 
 async def hello():
-    print("Hello!")
+    for i in range(5):
+        print(f"{i} Hello!")
 
 
 loop = asyncio.get_event_loop()
