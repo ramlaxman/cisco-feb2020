@@ -3,7 +3,7 @@
 import asyncio
 
 
-def hello():
+async def hello():
     print("Hello!")
 
 
