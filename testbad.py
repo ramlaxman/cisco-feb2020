@@ -11,6 +11,7 @@ def myfunc():
 
 
 x = [10, 20, 30]
+breakpoint()
 y = [one_item*2 for one_item in x]
 print(y)
 myfunc()
