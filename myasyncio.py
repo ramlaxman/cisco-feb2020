@@ -5,11 +5,13 @@ import asyncio
 
 async def hello():
     for i in range(5):
+        await asyncio.sleep(1)
         print(f"{i} Hello!")
 
 
 async def goodbye():
     for i in range(5):
+        await asyncio.sleep(1)
         print(f"{i} Goodbye!")
 
 
