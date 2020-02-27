@@ -9,7 +9,7 @@ l = Lock()
 
 
 def hello(i):
-    sleep(randint(0, 2))
+    sleep(randint(0, 6))
     with l:
         print(f"{i} Hello!")
         print(f"{i} Goodbye!")
