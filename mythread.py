@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
-from threading import Thread
+from threading import Thread, Lock
 from queue import Queue
 from time import sleep
 from random import randint
 
 q = Queue()
+l = Lock()
 
 
 def hello(i):
