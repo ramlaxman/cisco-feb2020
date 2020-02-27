@@ -9,3 +9,5 @@ def hello():
 
 loop = asyncio.get_event_loop()
 loop.run_forever()
+
+loop.create_task(hello())
