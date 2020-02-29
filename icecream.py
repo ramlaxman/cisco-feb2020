@@ -5,6 +5,9 @@ class Scoop():
     def __init__(self, flavor):
         self.flavor = flavor
 
+    def __repr__(self):
+        return f'Scoop of {self.flavor}'
+
 
 class Bowl():
     max_scoops = 3
@@ -22,6 +25,12 @@ class Bowl():
     def flavors(self):
         return [one_scoop.flavor
                 for one_scoop in self.scoops]
+
+    def __repr__(self):
+        output = f'{type(self).__name__} of:\n'
+        output += '\n'.join([f'\t{i}: {one_scoop}'
+                             for i, one_scoop in enumerate(self.scoops, 1)])
+        return output
 
 
 s1 = Scoop('chocolate')
@@ -52,3 +61,7 @@ print(bb.flavors())   # return a string of flavors from the scoops
 # with a max of 5 scoops
 # - reuse as much code as possible
 # - but also make sure that each class continues to work
+
+print(s1)
+print(b)
+print(bb)
